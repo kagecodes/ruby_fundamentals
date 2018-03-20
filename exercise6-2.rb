@@ -1,3 +1,5 @@
+# always define your variables beforehand
+
 distance = 0
 response = nil
 energy = 10

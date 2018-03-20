@@ -6,7 +6,7 @@ number = gets.to_i
 
 if number == secret_number
   puts "You win!"
-elsif number == 4 || number == 6
+elsif secret_number - number = 4.abs || secret_number - number == 6.abs
   puts "So close!"
 else
   puts "Try again."
